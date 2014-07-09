@@ -1,0 +1,32 @@
+{
+  "name": "seth",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andrejewski/seth",
+  "authors": [
+    "Chris Andrejewski <christopher.andrejewski@gmail.com>"
+  ],
+  "description": "JavaScript DSL for functional Set Theory",
+  "main": "lib/index.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "set",
+    "theory",
+    "functional",
+    "types",
+    "sets",
+    "union",
+    "intersect"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

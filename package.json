@@ -1,0 +1,35 @@
+{
+  "name": "seth",
+  "version": "0.0.0",
+  "description": "JavaScript DSL for functional Set Theory",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive",
+    "test-spec": "mocha --recursive --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrejewski/seth.git"
+  },
+  "keywords": [
+    "set",
+    "theory",
+    "functional",
+    "types",
+    "sets",
+    "union",
+    "intersect"
+  ],
+  "author": "Chris Andrejewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrejewski/seth/issues"
+  },
+  "homepage": "https://github.com/andrejewski/seth",
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
+}
