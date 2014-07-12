@@ -44,13 +44,7 @@ Seth includes common sets such as `Everything`, `Nothing` (alias `Empty`), `Numb
 
 ## What is Functional Set Theory?
 
-I made it up.
-
-Functional Set Theory is not a mathematical concept or a subset of set theory. When I say "functional set theory," what I mean is set theory composed of functions instead of definite elements in a manner similarly expressed by functional programming languages. A functional set is not a list or range of elements, but it is instead a Boolean function that states whether a given element matches a given set's criteria of containment.
-
-Why would I use such big words to construct an imaginary concept, one that is not even mathematically sound? Performance, duh. The real theory is computationally inefficient. For example, how would a computer store a set of everything, all combinations and deviations of numbers, strings, and objects? A computer will never have enough memory to capture everything. Even the smaller set of all numbers could not be stored in the memory of a computer. Yet Seth could not be limited to simple, short-length arrays of values.
-
-Seth needed something faster, more concise, and most importantly composable. The solution was functions and logic. Functions are awesome because they are lazy, exempt from depleting memory resources until they are evaluated. Logic is awesome because it is lightning fast and expressive. Combined they can efficiently express set theory.
+It is simply the equivalence between indicator functions and the sets they represent, i.e. given a set `A` we can associate with `A` the indicator function `Xi(A)` where `Xi(A)(x) = x ∈ A ? true : false`. We recover the original set by `A = { x | Xi(A)(x) == true }`. For more on indicator functions take a look at http://en.wikipedia.org/wiki/Indicator_function.
 
 Instead of writing out every possible value in the universe, a set of everything in Seth can be expressed with one simple function.
 
