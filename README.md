@@ -44,7 +44,7 @@ Seth includes common sets such as `Everything`, `Nothing` (alias `Empty`), `Numb
 
 ## What is Functional Set Theory?
 
-It is simply the equivalence between indicator functions and the sets they represent, i.e. given a set `A` we can associate with `A` the indicator function `Xi(A)` where `Xi(A)(x) = x in A ? true : false`. We recover the original set by `A = { x | Xi(A)(x) = true }`. For more on indicator functions take a look at http://en.wikipedia.org/wiki/Indicator_function.
+It is simply the equivalence between indicator functions and the sets they represent, i.e. given a set `A` we can associate with `A` the indicator function `Xi(A)` where `Xi(A)(x) = x ∈ A ? true : false`. We recover the original set by `A = { x | Xi(A)(x) == true }`. For more on indicator functions take a look at http://en.wikipedia.org/wiki/Indicator_function.
 
 Instead of writing out every possible value in the universe, a set of everything in Seth can be expressed with one simple function.
 
