@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/andrejewski/seth",
   "devDependencies": {
-    "mocha": "^1.20.1"
+    "mocha": "^3.2.0"
   }
 }
