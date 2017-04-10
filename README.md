@@ -1,6 +1,8 @@
 Seth
 ====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/andrejewski/seth.svg)](https://greenkeeper.io/)
+
 Seth is JavaScript DSL for functional Set Theory. This DSL aims to present set theory in its abstract mathematical form instead of manually dealing with literal arrays and their elements in a programming environment.
 
 Seth is available on both [NPM](https://www.npmjs.org/package/seth) and Bower with support for AMD and contains tiny shims to support pre-ES6.
